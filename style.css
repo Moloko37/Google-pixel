@@ -523,7 +523,7 @@ background-color:rgba(255, 255 ,255, 0.5) ;
     background-color:rgba(239, 244, 255, 0.39) ;
     backdrop-filter: blur(0.5vw);
     border-radius: 2.8vw;
-    border: 0.15vw solid rgba(143, 167, 245, 0.2);
+    border: 0.15vw solid rgba(168, 168, 168, 0.2);
      box-shadow: 0vw 0.5vw 1vw rgba(0, 0, 0, 0.3);
      font-family: "Roboto", sans-serif;
             color: rgba(255, 255, 255, 0.5);
@@ -641,17 +641,324 @@ backdrop-filter: blur(0.5vw);
     height: 5vw;
     margin: 5vw 33vw 0vw;
 }
-.sec5-info{
+.glow{
     position: absolute;
     background-image: url(./image/Group\ 20.png);
     background-repeat: no-repeat;
     background-size: cover;
     top: 300vw;
-    height: 50vw;
+    height: 125vw;
     width: 100vw;
     img{
         width: 100vw;
         margin-top: 50vw;
     }
+    z-index: -1;
+}
+.footer-wrap{
+    position: absolute;
+    top: 395vw;
+    height: 10vw;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0vw 0.1vw 0.5vw rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5vw);
+    border-top: 0.15vw solid rgba(255, 255, 255, 0.658);
+    height: 30vw;
+    width: 100vw;
+    border-radius: 5vw 5vw 0 0;
+    p{
+        font-family: "Roboto", sans-serif;
+        color: rgba(255, 255, 255, 0.5);
+        text-shadow: 0vw 0.125vw rgba(0, 0, 0, 0.3);
+        font-size: 1.2vw;
+        font-weight: 500;
+    }
+    
+}
+.footer-content:nth-child(1){
+background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0vw 0.1vw 0.5vw rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5vw);
+    border-top: 0.15vw solid rgba(204, 204, 204, 0.2);
+    padding: 1vw;
+    border-radius: 2vw;
+    height: 7.5vw;
+    width: 13vw;
+}
+.footer-content:nth-child(2){
+background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0vw 0.1vw 0.5vw rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5vw);
+    border-top: 0.15vw solid rgba(204, 204, 204, 0.2);
+    padding: 1vw;
+    border-radius: 2vw;
+    height: 10vw;
+    width: 13vw;
+}
+.footer-content:nth-child(3){
+background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0vw 0.1vw 0.5vw rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5vw);
+    border-top: 0.15vw solid rgba(204, 204, 204, 0.2);
+    padding: 1vw;
+    border-radius: 2vw;
+    height: 10vw;
+    width: 13vw;
+}
+.footer-content:nth-child(4){
+background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0vw 0.1vw 0.5vw rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5vw);
+    border-top: 0.15vw solid rgba(204, 204, 204, 0.2);
+    padding: 1vw;
+    border-radius: 2vw;
+    height: 6.5vw;
+    width: 13vw;
+}
+.foot-sec2{
+    justify-content: space-between;
+    width: 70vw;
+    margin: 3vw 7vw;
+}
+.go-logo{
+    height: 3vw;
+    width: 3vw;
+}
+.name{
+    width: 15vw;
+    height: 3vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0vw 0.1vw 0.5vw rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5vw);
+    border-top: 0.15vw solid rgba(204, 204, 204, 0.2);
+    border-radius: 5vw;
+    p{
+        font-family: "Roboto", sans-serif;
+        color: rgba(255, 255, 255, 0.5);
+        text-shadow: 0vw 0.125vw rgba(0, 0, 0, 0.3);
+        font-size: 1.5vw;
+        font-weight: 500;
+        margin: 0.5vw 2vw;
+    }
+}
+.foot-sec1{
+    justify-content: space-between;
+    width: 20vw;
+    margin: 3vw 4vw;
+}
+.sec5-wrap{
+    justify-content: space-between;
+    margin: 35vw 0 0 0 ;
+    padding: 5vw;
 }
 
+.previos{
+   
+    height: 7vw;
+   width: 7vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0vw 0.1vw 0.5vw rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5vw);
+    border-top: 0.15vw solid rgba(204, 204, 204, 0.2);
+    border-radius: 5vw;
+    margin: 25vw 0vw;
+    padding: 0.8vw 1.5vw;
+    img{
+        height: 5vw;
+        width: 3.2vw;
+    }
+}
+.next{
+    height: 7vw;
+   width: 7vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0vw 0.1vw 0.5vw rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5vw);
+    border-top: 0.15vw solid rgba(204, 204, 204, 0.2);
+    border-radius: 5vw;
+    margin: 25vw 0vw;
+    padding: 0.8vw 2vw;
+    img{
+        height: 5vw;
+        width: 3.2vw;
+    }
+}
+.dorbell-info{
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0vw 0.1vw 0.5vw rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5vw);
+    border-top: 0.15vw solid rgba(204, 204, 204, 0.2);
+    border-radius: 5vw;
+    height: 35vw;
+    width: 25vw;
+}
+.WithGemini{
+    width: 15vw;
+    height: 2vw;
+}
+.Gemini{
+    width: 5vw;
+    height: 5vw;
+    margin-bottom: 2.5vw;
+}
+.Ai{
+    align-items: center;
+    gap: 1vw;
+    width: 10vw;
+    margin: 0vw 2.5vw;
+}
+.Door-info{
+    margin: 2vw 2vw;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-shadow: 0vw 0.125vw rgba(0, 0, 0, 0.3);
+    font-size: 2.2vw;
+    font-weight: 500;
+}
+.doorbell{
+    height: 13.4vw;
+    width: 7.8vw;
+    margin: 2vw 8vw;
+}
+.gonestdor{
+    height: 7vw;
+    width: 18vw;
+    margin: 2vw 3.5vw;      
+}
+.dorbell-info, .gonestdor {
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Клас для приховування елементів перед зміною */
+.fade-out {
+    opacity: 0;
+    transform: translateX(-10px); /* Легкий зсув для ефекту руху */
+}
+
+.Learn{
+    border: none;
+    background-color: rgba(247, 238, 238, 0.329);
+    box-shadow: 0vw 0.1vw 0.5vw rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5vw);
+    border: 0.15vw solid rgba(204, 204, 204, 0.2);
+    border-radius: 5vw;
+    height: 5vw;
+    width: 10vw;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    text-shadow: 0vw 0.125vw rgba(0, 0, 0, 0.3);
+    font-size: 1.5vw;
+    font-weight: 500;
+    position: absolute;
+    top: 29vw;
+    left: 7vw;
+
+
+}
+.product2, .product3 {
+    position: relative; /* Обов'язково для роботи ефекту */
+    z-index: 2;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}   
+.product1::before, 
+.product2::before, 
+.product3::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -0.8vw;
+    left: -0.8vw;
+    right: -0.8vw;
+    bottom: -0.8vw;
+    border-radius: 3.8vw;
+    /* Той самий градієнт */
+    background: linear-gradient(45deg, #4285F4, #EA4335, #FBBC05, #34A853, #4285F4, #EA4335);
+    background-size: 400%;
+    filter: blur(1.2vw);
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+.buy-btn, .buy-btn2, .buy-btn3, .buy-btn4 {
+    transition: all 0.3s ease; /* Плавна зміна кольору */
+    cursor: pointer; /* Курсор змінюється на вказівний палець */
+}
+.buy-btn:hover, 
+.buy-btn2:hover, 
+.buy-btn3:hover {
+    /* Змінюємо колір на фірмовий Google Blue і робимо його непрозорим */
+    background-color: #81adff85; 
+    border-color:rgba(143, 167, 245, 0.2);
+    
+    /* Текст стає білим і чітким */
+    
+    /* Кнопка трохи збільшується */
+    transform: scale(1.05); 
+    
+    /* Додаємо гарне світіння навколо кнопки */
+    box-shadow: 0vw 0.5vw 1.5vw rgba(66, 133, 244, 0.5); 
+}
+
+/* 3. Ефект при НАТИСКАННІ (Active) */
+.buy-btn:active, 
+.buy-btn2:active, 
+.buy-btn3:active {
+    /* Темніший колір при кліку */
+    background-color: #3367d671; 
+    
+    /* Кнопка трохи зменшується, імітуючи натискання */
+    transform: scale(0.95); 
+    
+    /* Тінь зникає або йде всередину */
+    box-shadow: inset 0vw 0.2vw 0.5vw rgba(0, 0, 0, 0.2); 
+}
+.buy-btn4:hover{
+    background-color: rgba(249, 251, 255, 0.39); 
+    border-color:rgba(168, 168, 168, 0.2);
+    
+    /* Текст стає білим і чітким */
+    
+    /* Кнопка трохи збільшується */
+    transform: scale(1.05); 
+    
+    /* Додаємо гарне світіння навколо кнопки */
+    box-shadow: 0vw 0.5vw 1.5vw rgba(219, 219, 219, 0.5); 
+}
+.buy-btn4:active {
+    /* Темніший колір при кліку */
+    background-color: rgba(146, 146, 146, 0.2); 
+    
+    /* Кнопка трохи зменшується, імітуючи натискання */
+    transform: scale(0.95); 
+    
+    /* Тінь зникає або йде всередину */
+    box-shadow: inset 0vw 0.2vw 0.5vw rgba(0, 0, 0, 0.2);
+}
+.Learn {
+    cursor: pointer; /* Курсор змінюється на вказівний палець */
+    transition: all 0.3s ease; /* Плавна зміна кольору */
+}
+.Learn:hover {
+    /* Змінюємо колір на фірмовий Google Blue і робимо його непрозорим */
+    background-color: rgba(249, 251, 255, 0.39); 
+    border-color:rgba(168, 168, 168, 0.2);
+    
+    /* Текст стає білим і чітким */
+    
+    /* Кнопка трохи збільшується */
+    transform: scale(1.05); 
+    
+    /* Додаємо гарне світіння навколо кнопки */
+    box-shadow: 0vw 0.5vw 1.5vw rgba(87, 87, 87, 0.5); 
+}
+.Learn:active {
+    /* Темніший колір при кліку */
+    background-color: rgba(146, 146, 146, 0.2); 
+    
+    /* Кнопка трохи зменшується, імітуючи натискання */
+    transform: scale(0.95); 
+    
+    /* Тінь зникає або йде всередину */
+    box-shadow: inset 0vw 0.2vw 0.5vw rgba(0, 0, 0, 0.2);}
